@@ -48,19 +48,23 @@ sequenceDiagram
 graph TD
     A[Key Generation] --> B[Generate Prime Numbers p, q]
     B --> C[Calculate n = p * q]
-    C --> D[Calculate φ(n) = (p-1) * (q-1)]
+    C --> D[Calculate totient = (p-1) * (q-1)]
     D --> E[Choose Public Exponent e]
     E --> F[Calculate Private Exponent d]
     F --> G[Public Key (n, e)]
     F --> H[Private Key (n, d)]
 
-    I[Encryption] --> J[Get Message m]
-    J --> K[Use Public Key]
-    K --> L[c = m^e mod n]
+    I[Message Encryption] --> J[Input: message m]
+    J --> K[Get recipient public key]
+    K --> L[Calculate: c = m^e mod n]
 
-    M[Decryption] --> N[Get Ciphertext c]
-    N --> O[Use Private Key]
-    O --> P[m = c^d mod n]
+    M[Message Decryption] --> N[Input: ciphertext c]
+    N --> O[Use recipient private key]
+    O --> P[Calculate: m = c^d mod n]
+
+    style A fill:#f9f,stroke:#333
+    style I fill:#bbf,stroke:#333
+    style M fill:#bfb,stroke:#333
 ```
 
 ## Digital Signature Process
