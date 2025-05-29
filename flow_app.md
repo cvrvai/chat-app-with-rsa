@@ -44,28 +44,27 @@ sequenceDiagram
 
 ## RSA Algorithm Flow
 
-```mermaid
-graph TD
-    A[Key Generation] --> B[Generate Prime Numbers p, q]
-    B --> C[Calculate n = p * q]
-    C --> D[Calculate totient = (p-1) * (q-1)]
-    D --> E[Choose Public Exponent e]
-    E --> F[Calculate Private Exponent d]
-    F --> G[Public Key (n, e)]
-    F --> H[Private Key (n, d)]
+### Key Generation Process
+1. Generate two large prime numbers (p and q)
+2. Calculate modulus: n = p * q
+3. Calculate totient: φ(n) = (p-1) * (q-1)
+4. Choose public exponent e (usually 65537)
+5. Calculate private exponent d where (d * e) mod φ(n) = 1
+6. Result:
+   - Public Key: (n, e)
+   - Private Key: (n, d)
 
-    I[Message Encryption] --> J[Input: message m]
-    J --> K[Get recipient public key]
-    K --> L[Calculate: c = m^e mod n]
+### Message Encryption Process
+1. Get the message (m) to encrypt
+2. Obtain recipient's public key (n, e)
+3. Calculate ciphertext: c = m^e mod n
+4. Send encrypted message (c) to recipient
 
-    M[Message Decryption] --> N[Input: ciphertext c]
-    N --> O[Use recipient private key]
-    O --> P[Calculate: m = c^d mod n]
-
-    style A fill:#f9f,stroke:#333
-    style I fill:#bbf,stroke:#333
-    style M fill:#bfb,stroke:#333
-```
+### Message Decryption Process
+1. Receive encrypted message (ciphertext c)
+2. Use private key (n, d)
+3. Calculate original message: m = c^d mod n
+4. Read the decrypted message
 
 ## Digital Signature Process
 
