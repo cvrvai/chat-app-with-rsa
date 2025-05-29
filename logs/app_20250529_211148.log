@@ -1,0 +1,58 @@
+2025-05-29 21:11:49,749 - app.crypto.rsa_utils - INFO - Generated RSA key pair with size 2048
+2025-05-29 21:11:49,749 - app - INFO - Certificate Authority keys generated
+2025-05-29 21:11:50,484 - app - INFO - Client connected
+2025-05-29 21:11:52,469 - app - INFO - Client connected
+2025-05-29 21:11:53,774 - app - INFO - Client connected
+2025-05-29 21:11:53,779 - app - INFO - Client connected
+2025-05-29 21:12:13,722 - app - INFO - Registering user: choonvai
+2025-05-29 21:12:14,044 - app.crypto.rsa_utils - INFO - Generated RSA key pair with size 2048
+2025-05-29 21:12:14,059 - app.crypto.rsa_utils - INFO - Message signed successfully
+2025-05-29 21:12:14,059 - app.crypto.rsa_utils - INFO - Certificate generated for user choonvai
+2025-05-29 21:12:14,063 - app - INFO - Certificate generated for user: choonvai
+2025-05-29 21:12:14,063 - app.backend.message_handler - INFO - Added user: choonvai
+2025-05-29 21:12:25,602 - app - INFO - Registering user: koang
+2025-05-29 21:12:26,021 - app.crypto.rsa_utils - INFO - Generated RSA key pair with size 2048
+2025-05-29 21:12:26,024 - app.crypto.rsa_utils - INFO - Message signed successfully
+2025-05-29 21:12:26,025 - app.crypto.rsa_utils - INFO - Certificate generated for user koang
+2025-05-29 21:12:26,025 - app - INFO - Certificate generated for user: koang
+2025-05-29 21:12:26,025 - app.backend.message_handler - INFO - Added user: koang
+2025-05-29 21:12:27,451 - app - INFO - Retrieving conversation history between koang and choonvai
+2025-05-29 21:12:27,451 - app - INFO - Sent 0 messages for conversation between koang and choonvai
+2025-05-29 21:12:41,800 - app - INFO - Retrieving conversation history between choonvai and koang
+2025-05-29 21:12:41,800 - app - INFO - Sent 0 messages for conversation between choonvai and koang
+2025-05-29 21:12:48,350 - app - INFO - Retrieving conversation history between choonvai and koang
+2025-05-29 21:12:48,350 - app - INFO - Sent 0 messages for conversation between choonvai and koang
+2025-05-29 21:12:48,351 - app - INFO - Retrieving conversation history between choonvai and koang
+2025-05-29 21:12:48,351 - app - INFO - Sent 0 messages for conversation between choonvai and koang
+2025-05-29 21:12:56,075 - app - INFO - Message from choonvai to koang: hello choonvai
+2025-05-29 21:12:56,076 - app - INFO - Sent original message confirmation to sender choonvai
+2025-05-29 21:12:56,076 - app.backend.message_handler - INFO - Logged message from choonvai to koang
+2025-05-29 21:12:56,077 - app - INFO - Delivered message directly to recipient koang (no attacker active)
+2025-05-29 21:13:06,577 - app - INFO - Message from koang to choonvai: hi hello how are you
+2025-05-29 21:13:06,577 - app - INFO - Sent original message confirmation to sender koang
+2025-05-29 21:13:06,577 - app.backend.message_handler - INFO - Logged message from koang to choonvai
+2025-05-29 21:13:06,579 - app - INFO - Delivered message directly to recipient choonvai (no attacker active)
+2025-05-29 21:13:54,256 - app - INFO - Message from choonvai to koang: [ENCRYPTED]
+2025-05-29 21:13:54,260 - app.crypto.rsa_utils - INFO - Message signed successfully
+2025-05-29 21:13:54,262 - app.crypto.rsa_utils - INFO - Message encrypted successfully
+2025-05-29 21:13:54,263 - app - INFO - Sent original message confirmation to sender choonvai
+2025-05-29 21:13:54,263 - app.backend.message_handler - INFO - Logged message from choonvai to koang
+2025-05-29 21:13:54,263 - app - INFO - Delivered message directly to recipient koang (no attacker active)
+2025-05-29 21:14:06,534 - app - INFO - Message from koang to choonvai: [ENCRYPTED]
+2025-05-29 21:14:06,538 - app.crypto.rsa_utils - INFO - Message signed successfully
+2025-05-29 21:14:06,538 - app.crypto.rsa_utils - INFO - Message encrypted successfully
+2025-05-29 21:14:06,539 - app - INFO - Sent original message confirmation to sender koang
+2025-05-29 21:14:06,539 - app.backend.message_handler - INFO - Logged message from koang to choonvai
+2025-05-29 21:14:06,539 - app - INFO - Delivered message directly to recipient choonvai (no attacker active)
+2025-05-29 21:14:51,352 - app - INFO - Retrieving conversation history between choonvai and koang
+2025-05-29 21:14:51,352 - app - INFO - Sent 4 messages for conversation between choonvai and koang
+2025-05-29 21:14:51,353 - app - INFO - Retrieving conversation history between choonvai and koang
+2025-05-29 21:14:51,353 - app - INFO - Sent 4 messages for conversation between choonvai and koang
+2025-05-29 21:14:59,949 - app - INFO - Registering user: choonvai
+2025-05-29 21:15:01,338 - app.crypto.rsa_utils - INFO - Generated RSA key pair with size 2048
+2025-05-29 21:15:01,343 - app.crypto.rsa_utils - INFO - Message signed successfully
+2025-05-29 21:15:01,343 - app.crypto.rsa_utils - INFO - Certificate generated for user choonvai
+2025-05-29 21:15:01,344 - app - INFO - Certificate generated for user: choonvai
+2025-05-29 21:15:01,344 - app.backend.message_handler - INFO - Added user: choonvai
+2025-05-29 21:15:02,893 - app - INFO - Retrieving conversation history between choonvai and koang
+2025-05-29 21:15:02,894 - app - INFO - Sent 4 messages for conversation between choonvai and koang
