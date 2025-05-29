@@ -1,0 +1,186 @@
+2025-05-29 17:48:55,739 - app.crypto.rsa_utils - INFO - Generated RSA key pair with size 2048
+2025-05-29 17:48:55,739 - app - INFO - Certificate Authority keys generated
+2025-05-29 17:48:55,995 - app - INFO - Client connected
+2025-05-29 17:48:56,498 - app - INFO - Client connected
+2025-05-29 17:49:51,039 - app - INFO - Client connected
+2025-05-29 17:51:18,646 - app - INFO - Registering user: vai
+2025-05-29 17:51:21,754 - app.crypto.rsa_utils - INFO - Generated RSA key pair with size 2048
+2025-05-29 17:51:21,793 - app.crypto.rsa_utils - INFO - Message signed successfully
+2025-05-29 17:51:21,793 - app.crypto.rsa_utils - INFO - Certificate generated for user vai
+2025-05-29 17:51:21,793 - app - INFO - Certificate generated for user: vai
+2025-05-29 17:51:21,793 - app.backend.message_handler - INFO - Added user: vai
+2025-05-29 17:51:30,699 - app - INFO - Client connected
+2025-05-29 17:51:38,313 - app - INFO - Registering user: mai
+2025-05-29 17:51:38,912 - app.crypto.rsa_utils - INFO - Generated RSA key pair with size 2048
+2025-05-29 17:51:38,916 - app.crypto.rsa_utils - INFO - Message signed successfully
+2025-05-29 17:51:38,916 - app.crypto.rsa_utils - INFO - Certificate generated for user mai
+2025-05-29 17:51:38,916 - app - INFO - Certificate generated for user: mai
+2025-05-29 17:51:38,916 - app.backend.message_handler - INFO - Added user: mai
+2025-05-29 17:51:58,904 - app - INFO - Retrieving conversation history between mai and vai
+2025-05-29 17:51:58,905 - app - INFO - Sent 0 messages for conversation between mai and vai
+2025-05-29 17:56:30,568 - app - INFO - Client connected
+2025-05-29 17:56:37,116 - app - INFO - Registering user: kai
+2025-05-29 17:56:38,374 - app.crypto.rsa_utils - INFO - Generated RSA key pair with size 2048
+2025-05-29 17:56:38,374 - app.crypto.rsa_utils - INFO - Message signed successfully
+2025-05-29 17:56:38,374 - app.crypto.rsa_utils - INFO - Certificate generated for user kai
+2025-05-29 17:56:38,374 - app - INFO - Certificate generated for user: kai
+2025-05-29 17:56:38,374 - app.backend.message_handler - INFO - Added user: kai
+2025-05-29 17:56:39,983 - app - INFO - Retrieving conversation history between kai and vai
+2025-05-29 17:56:39,983 - app - INFO - Sent 0 messages for conversation between kai and vai
+2025-05-29 17:56:40,518 - app - INFO - Retrieving conversation history between kai and mai
+2025-05-29 17:56:40,519 - app - INFO - Sent 0 messages for conversation between kai and mai
+2025-05-29 17:56:41,324 - app - INFO - Retrieving conversation history between kai and vai
+2025-05-29 17:56:41,324 - app - INFO - Sent 0 messages for conversation between kai and vai
+2025-05-29 17:57:14,783 - app - INFO - Retrieving conversation history between kai and vai
+2025-05-29 17:57:14,784 - app - INFO - Sent 0 messages for conversation between kai and vai
+2025-05-29 17:57:14,784 - app - INFO - Retrieving conversation history between kai and vai
+2025-05-29 17:57:14,784 - app - INFO - Sent 0 messages for conversation between kai and vai
+2025-05-29 17:57:15,811 - app - INFO - Retrieving conversation history between kai and mai
+2025-05-29 17:57:15,812 - app - INFO - Sent 0 messages for conversation between kai and mai
+2025-05-29 17:57:16,256 - app - INFO - Retrieving conversation history between kai and vai
+2025-05-29 17:57:16,256 - app - INFO - Sent 0 messages for conversation between kai and vai
+2025-05-29 17:57:49,636 - app - INFO - Client connected
+2025-05-29 17:57:53,731 - app - INFO - Registering user: kai
+2025-05-29 17:57:54,239 - app.crypto.rsa_utils - INFO - Generated RSA key pair with size 2048
+2025-05-29 17:57:54,247 - app.crypto.rsa_utils - INFO - Message signed successfully
+2025-05-29 17:57:54,247 - app.crypto.rsa_utils - INFO - Certificate generated for user kai
+2025-05-29 17:57:54,247 - app - INFO - Certificate generated for user: kai
+2025-05-29 17:57:54,247 - app.backend.message_handler - INFO - Added user: kai
+2025-05-29 17:58:54,858 - app - INFO - Retrieving conversation history between kai and vai
+2025-05-29 17:58:54,858 - app - INFO - Sent 0 messages for conversation between kai and vai
+2025-05-29 18:00:26,864 - app - INFO - Retrieving conversation history between kai and mai
+2025-05-29 18:00:26,865 - app - INFO - Sent 0 messages for conversation between kai and mai
+2025-05-29 18:00:27,520 - app - INFO - Retrieving conversation history between kai and vai
+2025-05-29 18:00:27,520 - app - INFO - Sent 0 messages for conversation between kai and vai
+2025-05-29 18:01:31,175 - app - INFO - Retrieving conversation history between kai and vai
+2025-05-29 18:01:31,175 - app - INFO - Sent 0 messages for conversation between kai and vai
+2025-05-29 18:04:42,822 - app - INFO - Message from kai to vai: [ENCRYPTED]
+2025-05-29 18:04:42,826 - app.crypto.rsa_utils - INFO - Message signed successfully
+2025-05-29 18:04:42,826 - app.crypto.rsa_utils - INFO - Message encrypted successfully
+2025-05-29 18:04:42,826 - app - INFO - Sent original message confirmation to sender kai
+2025-05-29 18:04:42,826 - app.backend.message_handler - INFO - Logged message from kai to vai
+2025-05-29 18:04:42,826 - app - INFO - Delivered message directly to recipient vai (no attacker active)
+2025-05-29 18:05:02,262 - app - INFO - Client connected
+2025-05-29 18:05:08,295 - app - INFO - Registering user: vai
+2025-05-29 18:05:08,655 - app.crypto.rsa_utils - INFO - Generated RSA key pair with size 2048
+2025-05-29 18:05:08,655 - app.crypto.rsa_utils - INFO - Message signed successfully
+2025-05-29 18:05:08,655 - app.crypto.rsa_utils - INFO - Certificate generated for user vai
+2025-05-29 18:05:08,665 - app - INFO - Certificate generated for user: vai
+2025-05-29 18:05:08,665 - app.backend.message_handler - INFO - Added user: vai
+2025-05-29 18:05:10,307 - app - INFO - Retrieving conversation history between vai and kai
+2025-05-29 18:05:10,309 - app - INFO - Sent 1 messages for conversation between vai and kai
+2025-05-29 18:05:21,024 - app - INFO - Message from vai to kai: [ENCRYPTED]
+2025-05-29 18:05:21,033 - app.crypto.rsa_utils - INFO - Message signed successfully
+2025-05-29 18:05:21,034 - app.crypto.rsa_utils - INFO - Message encrypted successfully
+2025-05-29 18:05:21,035 - app - INFO - Sent original message confirmation to sender vai
+2025-05-29 18:05:21,035 - app.backend.message_handler - INFO - Logged message from vai to kai
+2025-05-29 18:05:21,035 - app - INFO - Delivered message directly to recipient kai (no attacker active)
+2025-05-29 18:07:09,545 - app - INFO - Retrieving conversation history between vai and mai
+2025-05-29 18:07:09,546 - app - INFO - Sent 0 messages for conversation between vai and mai
+2025-05-29 18:07:10,147 - app - INFO - Retrieving conversation history between vai and kai
+2025-05-29 18:07:10,147 - app - INFO - Sent 2 messages for conversation between vai and kai
+2025-05-29 18:08:06,497 - app - INFO - Retrieving conversation history between vai and mai
+2025-05-29 18:08:06,498 - app - INFO - Sent 0 messages for conversation between vai and mai
+2025-05-29 18:08:07,544 - app - INFO - Retrieving conversation history between vai and kai
+2025-05-29 18:08:07,544 - app - INFO - Sent 2 messages for conversation between vai and kai
+2025-05-29 18:08:08,314 - app - INFO - Retrieving conversation history between vai and mai
+2025-05-29 18:08:08,315 - app - INFO - Sent 0 messages for conversation between vai and mai
+2025-05-29 18:08:08,940 - app - INFO - Retrieving conversation history between vai and kai
+2025-05-29 18:08:08,940 - app - INFO - Sent 2 messages for conversation between vai and kai
+2025-05-29 18:14:00,846 - app - INFO - Retrieving conversation history between vai and kai
+2025-05-29 18:14:00,848 - app - INFO - Sent 2 messages for conversation between vai and kai
+2025-05-29 18:14:00,848 - app - INFO - Retrieving conversation history between vai and kai
+2025-05-29 18:14:00,848 - app - INFO - Sent 2 messages for conversation between vai and kai
+2025-05-29 18:14:02,475 - app - INFO - Retrieving conversation history between vai and mai
+2025-05-29 18:14:02,476 - app - INFO - Sent 0 messages for conversation between vai and mai
+2025-05-29 18:14:03,164 - app - INFO - Retrieving conversation history between vai and kai
+2025-05-29 18:14:03,164 - app - INFO - Sent 2 messages for conversation between vai and kai
+2025-05-29 18:14:03,675 - app - INFO - Retrieving conversation history between vai and mai
+2025-05-29 18:14:03,676 - app - INFO - Sent 0 messages for conversation between vai and mai
+2025-05-29 18:14:04,414 - app - INFO - Retrieving conversation history between vai and kai
+2025-05-29 18:14:04,414 - app - INFO - Sent 2 messages for conversation between vai and kai
+2025-05-29 18:14:05,571 - app - INFO - Retrieving conversation history between vai and mai
+2025-05-29 18:14:05,571 - app - INFO - Sent 0 messages for conversation between vai and mai
+2025-05-29 18:14:06,034 - app - INFO - Retrieving conversation history between vai and kai
+2025-05-29 18:14:06,034 - app - INFO - Sent 2 messages for conversation between vai and kai
+2025-05-29 18:14:12,085 - app - INFO - Retrieving conversation history between vai and mai
+2025-05-29 18:14:12,085 - app - INFO - Sent 0 messages for conversation between vai and mai
+2025-05-29 18:14:12,584 - app - INFO - Retrieving conversation history between vai and kai
+2025-05-29 18:14:12,585 - app - INFO - Sent 2 messages for conversation between vai and kai
+2025-05-29 18:14:15,105 - app - INFO - Retrieving conversation history between vai and mai
+2025-05-29 18:14:15,106 - app - INFO - Sent 0 messages for conversation between vai and mai
+2025-05-29 18:14:31,508 - app - INFO - Retrieving conversation history between vai and mai
+2025-05-29 18:14:31,509 - app - INFO - Sent 0 messages for conversation between vai and mai
+2025-05-29 18:14:31,509 - app - INFO - Retrieving conversation history between vai and mai
+2025-05-29 18:14:31,509 - app - INFO - Sent 0 messages for conversation between vai and mai
+2025-05-29 18:14:32,878 - app - INFO - Retrieving conversation history between vai and kai
+2025-05-29 18:14:32,878 - app - INFO - Sent 2 messages for conversation between vai and kai
+2025-05-29 18:14:34,113 - app - INFO - Retrieving conversation history between vai and mai
+2025-05-29 18:14:34,113 - app - INFO - Sent 0 messages for conversation between vai and mai
+2025-05-29 18:14:34,644 - app - INFO - Retrieving conversation history between vai and kai
+2025-05-29 18:14:34,644 - app - INFO - Sent 2 messages for conversation between vai and kai
+2025-05-29 18:14:35,914 - app - INFO - Retrieving conversation history between vai and mai
+2025-05-29 18:14:35,915 - app - INFO - Sent 0 messages for conversation between vai and mai
+2025-05-29 18:14:36,935 - app - INFO - Retrieving conversation history between vai and kai
+2025-05-29 18:14:36,936 - app - INFO - Sent 2 messages for conversation between vai and kai
+2025-05-29 18:14:37,399 - app - INFO - Retrieving conversation history between vai and mai
+2025-05-29 18:14:37,399 - app - INFO - Sent 0 messages for conversation between vai and mai
+2025-05-29 18:14:39,043 - app - INFO - Retrieving conversation history between vai and kai
+2025-05-29 18:14:39,043 - app - INFO - Sent 2 messages for conversation between vai and kai
+2025-05-29 18:14:39,892 - app - INFO - Retrieving conversation history between vai and mai
+2025-05-29 18:14:39,892 - app - INFO - Sent 0 messages for conversation between vai and mai
+2025-05-29 18:15:53,410 - app - INFO - Retrieving conversation history between vai and kai
+2025-05-29 18:15:53,410 - app - INFO - Sent 2 messages for conversation between vai and kai
+2025-05-29 18:17:35,416 - app - INFO - Retrieving conversation history between vai and kai
+2025-05-29 18:17:35,416 - app - INFO - Sent 2 messages for conversation between vai and kai
+2025-05-29 18:17:35,417 - app - INFO - Retrieving conversation history between vai and kai
+2025-05-29 18:17:35,417 - app - INFO - Sent 2 messages for conversation between vai and kai
+2025-05-29 18:17:37,281 - app - INFO - Retrieving conversation history between vai and kai
+2025-05-29 18:17:37,281 - app - INFO - Sent 2 messages for conversation between vai and kai
+2025-05-29 18:17:37,281 - app - INFO - Retrieving conversation history between vai and kai
+2025-05-29 18:17:37,281 - app - INFO - Sent 2 messages for conversation between vai and kai
+2025-05-29 18:18:47,584 - app - INFO - Retrieving conversation history between vai and kai
+2025-05-29 18:18:47,584 - app - INFO - Sent 2 messages for conversation between vai and kai
+2025-05-29 18:18:47,584 - app - INFO - Retrieving conversation history between vai and kai
+2025-05-29 18:18:47,584 - app - INFO - Sent 2 messages for conversation between vai and kai
+2025-05-29 18:19:09,740 - app - INFO - Client connected
+2025-05-29 18:25:38,195 - app - INFO - Retrieving conversation history between kai and vai
+2025-05-29 18:25:38,195 - app - INFO - Sent 2 messages for conversation between kai and vai
+2025-05-29 18:25:38,195 - app - INFO - Retrieving conversation history between kai and vai
+2025-05-29 18:25:38,195 - app - INFO - Sent 2 messages for conversation between kai and vai
+2025-05-29 18:25:45,835 - app - INFO - Registering user: mai
+2025-05-29 18:25:46,493 - app.crypto.rsa_utils - INFO - Generated RSA key pair with size 2048
+2025-05-29 18:25:46,493 - app.crypto.rsa_utils - INFO - Message signed successfully
+2025-05-29 18:25:46,493 - app.crypto.rsa_utils - INFO - Certificate generated for user mai
+2025-05-29 18:25:46,493 - app - INFO - Certificate generated for user: mai
+2025-05-29 18:25:46,493 - app.backend.message_handler - INFO - Added user: mai
+2025-05-29 18:25:47,689 - app - INFO - Retrieving conversation history between mai and vai
+2025-05-29 18:25:47,690 - app - INFO - Sent 0 messages for conversation between mai and vai
+2025-05-29 18:25:48,342 - app - INFO - Retrieving conversation history between mai and kai
+2025-05-29 18:25:48,343 - app - INFO - Sent 0 messages for conversation between mai and kai
+2025-05-29 18:25:48,718 - app - INFO - Retrieving conversation history between mai and vai
+2025-05-29 18:25:48,719 - app - INFO - Sent 0 messages for conversation between mai and vai
+2025-05-29 18:25:50,582 - app - INFO - Retrieving conversation history between mai and kai
+2025-05-29 18:25:50,583 - app - INFO - Sent 0 messages for conversation between mai and kai
+2025-05-29 18:25:51,159 - app - INFO - Retrieving conversation history between mai and vai
+2025-05-29 18:25:51,159 - app - INFO - Sent 0 messages for conversation between mai and vai
+2025-05-29 18:25:51,900 - app - INFO - Retrieving conversation history between mai and kai
+2025-05-29 18:25:51,900 - app - INFO - Sent 0 messages for conversation between mai and kai
+2025-05-29 18:25:52,638 - app - INFO - Retrieving conversation history between mai and vai
+2025-05-29 18:25:52,639 - app - INFO - Sent 0 messages for conversation between mai and vai
+2025-05-29 18:25:53,110 - app - INFO - Retrieving conversation history between mai and kai
+2025-05-29 18:25:53,110 - app - INFO - Sent 0 messages for conversation between mai and kai
+2025-05-29 18:26:01,022 - app - INFO - Message from mai to kai: [ENCRYPTED]
+2025-05-29 18:26:01,024 - app.crypto.rsa_utils - INFO - Message signed successfully
+2025-05-29 18:26:01,032 - app.crypto.rsa_utils - INFO - Message encrypted successfully
+2025-05-29 18:26:01,032 - app - INFO - Sent original message confirmation to sender mai
+2025-05-29 18:26:01,032 - app.backend.message_handler - INFO - Logged message from mai to kai
+2025-05-29 18:26:01,032 - app - INFO - Delivered message directly to recipient kai (no attacker active)
+2025-05-29 18:26:06,944 - app - INFO - Retrieving conversation history between kai and mai
+2025-05-29 18:26:06,944 - app - INFO - Sent 1 messages for conversation between kai and mai
+2025-05-29 18:26:08,157 - app - INFO - Retrieving conversation history between kai and vai
+2025-05-29 18:26:08,157 - app - INFO - Sent 2 messages for conversation between kai and vai
+2025-05-29 18:26:09,378 - app - INFO - Retrieving conversation history between kai and mai
+2025-05-29 18:26:09,378 - app - INFO - Sent 1 messages for conversation between kai and mai
+2025-05-29 18:26:10,057 - app - INFO - Retrieving conversation history between kai and vai
+2025-05-29 18:26:10,057 - app - INFO - Sent 2 messages for conversation between kai and vai

@@ -1,0 +1,16 @@
+/* Remove previous styles and keep it minimal since we're using Tailwind */
+
+/* Optional hover effect for the lock icon */
+.hover-rotate {
+    transition: transform 0.2s ease;
+}
+
+.hover-rotate:hover {
+    transform: rotate(-10deg);
+}
+
+/* Loading animation for better visibility on dark theme */
+@keyframes pulse {
+    0%, 100% { opacity: 0.6; }
+    50% { opacity: 1; }
+}

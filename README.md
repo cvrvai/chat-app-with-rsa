@@ -17,28 +17,11 @@ A simple demo of RSA-based digital signatures for secure messaging, similar to t
 
 - **Backend**: Flask, Flask-SocketIO
 - **Cryptography**: PyCryptodome for RSA implementation
-- **Frontend**: HTML, CSS, JavaScript
+- **Frontend**: react vite 
 - **WebSockets**: Socket.IO for real-time communication
 - **Logging**: Python's built-in logging module
 
-## Setup
-
-1. Install dependencies:
-```
-pip install -r requirements.txt
-```
-
-2. Run the application:
-```
-python app.py
-```
-
-3. Open two browser windows/tabs at http://localhost:5000 for the two users
-   - Enter different usernames in each window
-   - Send messages between users
-   - Toggle encryption on/off to see the difference
-
-4. In a terminal, run the attacker simulation:
+## In a terminal, run the attacker simulation:
 ```
 python attacker.py
 ```
@@ -72,21 +55,6 @@ This will display all message traffic, including:
 
 ## Project Structure
 
-- `app.py`: Main Flask application entry point
-- `attacker.py`: MITM attack simulation script
-- `app/crypto`: RSA implementation and signature utilities
-  - `rsa_utils.py`: Functions for key generation, signing, verification, encryption, and decryption
-- `app/templates`: HTML templates for the frontend
-  - `index.html`: Single-page application template
-- `app/static`: CSS, JavaScript, and image assets
-  - `css/style.css`: Application styling
-  - `js/app.js`: Frontend JavaScript for UI interactions and Socket.IO
-  - `images/lock-icon.svg`: Lock icon for the application
-- `app/backend`: Server-side logic for message handling
-  - `message_handler.py`: Message processing and user management
-- `app/utils`: Utility functions for the application
-  - `logger.py`: Logging configuration and setup
-- `logs/`: Directory for application logs (created automatically)
 
 ## Dependencies
 
@@ -99,14 +67,3 @@ The application requires the following Python packages:
 - colorama (v0.4.6)
 - python-socketio (v5.7.2)
 - websocket-client (v1.8.0)
-## Chat Demo Between Two Users
-![Image](https://github.com/user-attachments/assets/1bfd1709-6e5a-450d-95bb-6b1d408ab321)
-![Image](https://github.com/user-attachments/assets/c56ba5fb-37b5-41b9-bd35-9749dfc418e1)
-![Image](https://github.com/user-attachments/assets/3b2d22c1-7bab-42d6-8f4d-64b9b287e9d8)
-![Image](https://github.com/user-attachments/assets/09cfd0c9-3a75-4206-858a-d9ddba792323)
-![Image](https://github.com/user-attachments/assets/979085a7-b44b-47f8-9dc9-e6cf45f48e50)
-![Image](https://github.com/user-attachments/assets/b5d29c1e-d7cc-4123-b3da-9e49bb04591c)
-![Image](https://github.com/user-attachments/assets/1d439c04-2d28-4e9c-a49f-1e57007e6d23)
-![Image](https://github.com/user-attachments/assets/43d3de4d-90a2-44ee-994c-7b4975132ea3)
-![Image](https://github.com/user-attachments/assets/fec77cf5-cfc5-4c2c-bb64-a5fd43c99544)
-![Image](https://github.com/user-attachments/assets/c8e9943f-a6c0-4eb2-a60d-74ab624e0451)

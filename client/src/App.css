@@ -1,0 +1,9 @@
+/* Since we're using Tailwind, minimal custom CSS is needed */
+#root {
+  height: 100vh;
+}
+
+/* For users who might have JavaScript disabled, though this is rare for a web app */
+.hidden {
+  display: none !important;
+}
