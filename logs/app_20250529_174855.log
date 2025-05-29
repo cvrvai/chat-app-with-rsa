@@ -184,3 +184,21 @@
 2025-05-29 18:26:09,378 - app - INFO - Sent 1 messages for conversation between kai and mai
 2025-05-29 18:26:10,057 - app - INFO - Retrieving conversation history between kai and vai
 2025-05-29 18:26:10,057 - app - INFO - Sent 2 messages for conversation between kai and vai
+2025-05-29 18:29:29,620 - app - INFO - Registering user: kai
+2025-05-29 18:29:31,130 - app.crypto.rsa_utils - INFO - Generated RSA key pair with size 2048
+2025-05-29 18:29:31,141 - app.crypto.rsa_utils - INFO - Message signed successfully
+2025-05-29 18:29:31,141 - app.crypto.rsa_utils - INFO - Certificate generated for user kai
+2025-05-29 18:29:31,141 - app - INFO - Certificate generated for user: kai
+2025-05-29 18:29:31,141 - app.backend.message_handler - INFO - Added user: kai
+2025-05-29 18:29:52,261 - app - INFO - Registering user: mai
+2025-05-29 18:29:53,281 - app.crypto.rsa_utils - INFO - Generated RSA key pair with size 2048
+2025-05-29 18:29:53,284 - app.crypto.rsa_utils - INFO - Message signed successfully
+2025-05-29 18:29:53,284 - app.crypto.rsa_utils - INFO - Certificate generated for user mai
+2025-05-29 18:29:53,285 - app - INFO - Certificate generated for user: mai
+2025-05-29 18:29:53,285 - app.backend.message_handler - INFO - Added user: mai
+2025-05-29 18:31:10,065 - app - INFO - Registering user: kai
+2025-05-29 18:31:10,944 - app.crypto.rsa_utils - INFO - Generated RSA key pair with size 2048
+2025-05-29 18:31:10,947 - app.crypto.rsa_utils - INFO - Message signed successfully
+2025-05-29 18:31:10,947 - app.crypto.rsa_utils - INFO - Certificate generated for user kai
+2025-05-29 18:31:10,947 - app - INFO - Certificate generated for user: kai
+2025-05-29 18:31:10,947 - app.backend.message_handler - INFO - Added user: kai

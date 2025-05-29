@@ -1,0 +1,44 @@
+2025-05-29 20:17:06,869 - app.crypto.rsa_utils - INFO - Generated RSA key pair with size 2048
+2025-05-29 20:17:06,869 - app - INFO - Certificate Authority keys generated
+2025-05-29 20:17:55,943 - app - INFO - Client connected
+2025-05-29 20:18:02,618 - app - INFO - Client connected
+2025-05-29 20:18:11,760 - app - INFO - Registering user: vai
+2025-05-29 20:18:12,507 - app.crypto.rsa_utils - INFO - Generated RSA key pair with size 2048
+2025-05-29 20:18:12,521 - app.crypto.rsa_utils - INFO - Message signed successfully
+2025-05-29 20:18:12,521 - app.crypto.rsa_utils - INFO - Certificate generated for user vai
+2025-05-29 20:18:12,521 - app - INFO - Certificate generated for user: vai
+2025-05-29 20:18:12,521 - app.backend.message_handler - INFO - Added user: vai
+2025-05-29 20:18:14,079 - app - INFO - Registering user: mai
+2025-05-29 20:18:14,791 - app.crypto.rsa_utils - INFO - Generated RSA key pair with size 2048
+2025-05-29 20:18:14,794 - app.crypto.rsa_utils - INFO - Message signed successfully
+2025-05-29 20:18:14,794 - app.crypto.rsa_utils - INFO - Certificate generated for user mai
+2025-05-29 20:18:14,794 - app - INFO - Certificate generated for user: mai
+2025-05-29 20:18:14,794 - app.backend.message_handler - INFO - Added user: mai
+2025-05-29 20:18:17,174 - app - INFO - Retrieving conversation history between mai and vai
+2025-05-29 20:18:17,175 - app - INFO - Sent 0 messages for conversation between mai and vai
+2025-05-29 20:18:18,109 - app - INFO - Retrieving conversation history between vai and mai
+2025-05-29 20:18:18,110 - app - INFO - Sent 0 messages for conversation between vai and mai
+2025-05-29 20:18:23,979 - app - INFO - Retrieving conversation history between vai and mai
+2025-05-29 20:18:23,980 - app - INFO - Sent 0 messages for conversation between vai and mai
+2025-05-29 20:18:23,980 - app - INFO - Retrieving conversation history between vai and mai
+2025-05-29 20:18:23,981 - app - INFO - Sent 0 messages for conversation between vai and mai
+2025-05-29 20:18:47,667 - app - INFO - Message from vai to mai: [ENCRYPTED]
+2025-05-29 20:18:47,672 - app.crypto.rsa_utils - INFO - Message signed successfully
+2025-05-29 20:18:47,673 - app.crypto.rsa_utils - INFO - Message encrypted successfully
+2025-05-29 20:18:47,674 - app - INFO - Sent original message confirmation to sender vai
+2025-05-29 20:18:47,674 - app.backend.message_handler - INFO - Logged message from vai to mai
+2025-05-29 20:18:47,674 - app - INFO - Delivered message directly to recipient mai (no attacker active)
+2025-05-29 20:18:52,634 - app - INFO - Message from mai to vai: [ENCRYPTED]
+2025-05-29 20:18:52,639 - app.crypto.rsa_utils - INFO - Message signed successfully
+2025-05-29 20:18:52,640 - app.crypto.rsa_utils - INFO - Message encrypted successfully
+2025-05-29 20:18:52,641 - app - INFO - Sent original message confirmation to sender mai
+2025-05-29 20:18:52,641 - app.backend.message_handler - INFO - Logged message from mai to vai
+2025-05-29 20:18:52,641 - app - INFO - Delivered message directly to recipient vai (no attacker active)
+2025-05-29 20:18:56,487 - app - INFO - Retrieving conversation history between mai and vai
+2025-05-29 20:18:56,488 - app - INFO - Sent 2 messages for conversation between mai and vai
+2025-05-29 20:18:56,488 - app - INFO - Retrieving conversation history between mai and vai
+2025-05-29 20:18:56,488 - app - INFO - Sent 2 messages for conversation between mai and vai
+2025-05-29 20:19:03,843 - app - INFO - Message from mai to vai: what up
+2025-05-29 20:19:03,844 - app - INFO - Sent original message confirmation to sender mai
+2025-05-29 20:19:03,844 - app.backend.message_handler - INFO - Logged message from mai to vai
+2025-05-29 20:19:03,845 - app - INFO - Delivered message directly to recipient vai (no attacker active)
