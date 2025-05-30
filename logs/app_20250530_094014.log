@@ -1,0 +1,4 @@
+2025-05-30 09:40:14,863 - app.crypto.rsa_utils - INFO - Generated RSA key pair with size 2048
+2025-05-30 09:40:14,863 - app - INFO - Certificate Authority keys generated
+2025-05-30 09:40:14,971 - app - INFO - Client connected
+2025-05-30 09:40:15,962 - app - INFO - Client connected

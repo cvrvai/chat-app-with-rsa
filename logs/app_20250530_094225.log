@@ -1,0 +1,31 @@
+2025-05-30 09:42:26,151 - app.crypto.rsa_utils - INFO - Generated RSA key pair with size 2048
+2025-05-30 09:42:26,151 - app - INFO - Certificate Authority keys generated
+2025-05-30 09:42:26,177 - app - INFO - Client connected
+2025-05-30 09:42:26,220 - app - INFO - Client connected
+2025-05-30 09:42:36,126 - app - INFO - Client connected
+2025-05-30 09:42:36,133 - app.backend.message_handler - INFO - Tampering mode set to: True
+2025-05-30 09:42:36,133 - app - INFO - Tampering mode set to: True
+2025-05-30 09:43:04,664 - app.backend.message_handler - INFO - Tampering mode set to: True
+2025-05-30 09:43:04,664 - app - INFO - Tampering mode set to: True
+2025-05-30 09:43:15,526 - app - INFO - Message from kai to vai: [ENCRYPTED]
+2025-05-30 09:43:25,233 - app - INFO - Message from kai to vai: [ENCRYPTED]
+2025-05-30 09:43:28,871 - app - INFO - Message from vai to kai: [ENCRYPTED]
+2025-05-30 09:43:39,907 - app - INFO - Message from kai to vai: fadsf
+2025-05-30 09:43:39,908 - app - INFO - Sent original message confirmation to sender kai
+2025-05-30 09:43:39,908 - app.backend.message_handler - INFO - Logged message from kai to vai
+2025-05-30 09:43:49,311 - app - INFO - Retrieving conversation history between vai and kai
+2025-05-30 09:43:49,312 - app - INFO - Sent 1 messages for conversation between vai and kai
+2025-05-30 09:43:49,312 - app - INFO - Retrieving conversation history between vai and kai
+2025-05-30 09:43:49,313 - app - INFO - Sent 1 messages for conversation between vai and kai
+2025-05-30 09:43:51,025 - app - INFO - Retrieving conversation history between vai and kai
+2025-05-30 09:43:51,026 - app - INFO - Retrieving conversation history between vai and kai
+2025-05-30 09:43:51,027 - app - INFO - Sent 1 messages for conversation between vai and kai
+2025-05-30 09:43:51,027 - app - INFO - Sent 1 messages for conversation between vai and kai
+2025-05-30 09:43:51,886 - app - INFO - Retrieving conversation history between vai and kai
+2025-05-30 09:43:51,886 - app - INFO - Retrieving conversation history between vai and kai
+2025-05-30 09:43:51,887 - app - INFO - Sent 1 messages for conversation between vai and kai
+2025-05-30 09:43:51,887 - app - INFO - Sent 1 messages for conversation between vai and kai
+2025-05-30 09:44:27,259 - app.backend.message_handler - INFO - Tampering mode set to: False
+2025-05-30 09:44:27,259 - app - INFO - Tampering mode set to: False
+2025-05-30 09:44:28,146 - app.backend.message_handler - INFO - Tampering mode set to: True
+2025-05-30 09:44:28,146 - app - INFO - Tampering mode set to: True

@@ -17,9 +17,18 @@ app = Flask(__name__,
             template_folder='app/templates')
 app.config['SECRET_KEY'] = os.urandom(24).hex()
 
-# Enable CORS for the React frontend
-CORS(app, resources={r"/*": {"origins": ["http://localhost:5173", "http://127.0.0.1:5173", "http://localhost:5174", "http://127.0.0.1:5174"]}})
-socketio = SocketIO(app, cors_allowed_origins=["http://localhost:5173", "http://127.0.0.1:5173", "http://localhost:5174", "http://127.0.0.1:5174"], ping_timeout=60)
+# Enable CORS for all origins
+CORS(app, resources={r"/*": {"origins": "*"}})
+
+# Initialize Socket.IO with proper CORS settings
+socketio = SocketIO(
+    app,
+    cors_allowed_origins="*",  # Allow all origins for testing
+    ping_timeout=60,
+    ping_interval=25,
+    async_mode='threading',  # Use threading mode for better compatibility
+    always_connect=True
+)
 
 # Setup logger
 logger = setup_logger()
@@ -276,4 +285,4 @@ def get_users():
     return jsonify({'users': list(message_handler.get_users())})
 
 if __name__ == '__main__':
-    socketio.run(app, debug=True, host='0.0.0.0', port=5000) 
+    socketio.run(app, debug=True, host='0.0.0.0', port=5000)

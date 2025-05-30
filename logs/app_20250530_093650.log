@@ -1,0 +1,34 @@
+2025-05-30 09:36:51,167 - app.crypto.rsa_utils - INFO - Generated RSA key pair with size 2048
+2025-05-30 09:36:51,168 - app - INFO - Certificate Authority keys generated
+2025-05-30 09:37:00,937 - app - INFO - Client connected
+2025-05-30 09:37:07,084 - app - INFO - Client connected
+2025-05-30 09:37:08,821 - app - INFO - Registering user: vai
+2025-05-30 09:37:09,397 - app.crypto.rsa_utils - INFO - Generated RSA key pair with size 2048
+2025-05-30 09:37:09,523 - app.crypto.rsa_utils - INFO - Message signed successfully
+2025-05-30 09:37:09,523 - app.crypto.rsa_utils - INFO - Certificate generated for user vai
+2025-05-30 09:37:09,524 - app - INFO - Certificate generated for user: vai
+2025-05-30 09:37:09,524 - app.backend.message_handler - INFO - Added user: vai
+2025-05-30 09:37:22,500 - app - INFO - Client connected
+2025-05-30 09:37:37,413 - app - INFO - Registering user: kai
+2025-05-30 09:37:38,240 - app.crypto.rsa_utils - INFO - Generated RSA key pair with size 2048
+2025-05-30 09:37:38,243 - app.crypto.rsa_utils - INFO - Message signed successfully
+2025-05-30 09:37:38,243 - app.crypto.rsa_utils - INFO - Certificate generated for user kai
+2025-05-30 09:37:38,244 - app - INFO - Certificate generated for user: kai
+2025-05-30 09:37:38,244 - app.backend.message_handler - INFO - Added user: kai
+2025-05-30 09:37:39,178 - app - INFO - Retrieving conversation history between vai and kai
+2025-05-30 09:37:39,178 - app - INFO - Sent 0 messages for conversation between vai and kai
+2025-05-30 09:37:39,764 - app - INFO - Retrieving conversation history between kai and vai
+2025-05-30 09:37:39,764 - app - INFO - Sent 0 messages for conversation between kai and vai
+2025-05-30 09:37:44,138 - app - INFO - Message from kai to vai: [ENCRYPTED]
+2025-05-30 09:37:44,142 - app.crypto.rsa_utils - INFO - Message signed successfully
+2025-05-30 09:37:44,144 - app.crypto.rsa_utils - INFO - Message encrypted successfully
+2025-05-30 09:37:44,144 - app - INFO - Sent original message confirmation to sender kai
+2025-05-30 09:37:44,144 - app.backend.message_handler - INFO - Logged message from kai to vai
+2025-05-30 09:37:44,145 - app - INFO - Delivered message directly to recipient vai (no attacker active)
+2025-05-30 09:37:48,371 - app - INFO - Message from vai to kai: [ENCRYPTED]
+2025-05-30 09:37:48,376 - app.crypto.rsa_utils - INFO - Message signed successfully
+2025-05-30 09:37:48,377 - app.crypto.rsa_utils - INFO - Message encrypted successfully
+2025-05-30 09:37:48,377 - app - INFO - Sent original message confirmation to sender vai
+2025-05-30 09:37:48,378 - app.backend.message_handler - INFO - Logged message from vai to kai
+2025-05-30 09:37:48,378 - app - INFO - Delivered message directly to recipient kai (no attacker active)
+2025-05-30 09:37:59,052 - app - INFO - Client connected

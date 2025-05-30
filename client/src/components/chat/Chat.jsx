@@ -63,11 +63,18 @@ const Chat = ({ currentUser, selectedUser, userKeys }) => {
         }));
         setMessages(messagesForDisplay);
       }
-    };
+    };    // Request conversation history when changing selected user
+    if (selectedUser) {
+      socket.emit('get_conversation', {
+        user_id: currentUser,
+        recipient_id: selectedUser
+      });
+    }
 
-    socket.on('new_message', handleIncomingMessage); // Backend emits 'new_message', not 'receive_message'
+    socket.on('new_message', handleIncomingMessage);
     socket.on('conversation_history', handleConversationHistory);
 
+    // Cleanup listeners when component unmounts or dependencies change
     return () => {
       socket.off('new_message', handleIncomingMessage);
       socket.off('conversation_history', handleConversationHistory);

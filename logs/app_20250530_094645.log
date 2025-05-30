@@ -1,0 +1,11 @@
+2025-05-30 09:46:46,135 - app.crypto.rsa_utils - INFO - Generated RSA key pair with size 2048
+2025-05-30 09:46:46,135 - app - INFO - Certificate Authority keys generated
+2025-05-30 09:46:46,217 - app - INFO - Client connected
+2025-05-30 09:46:47,231 - app - INFO - Client connected
+2025-05-30 09:46:53,376 - app - INFO - Client connected
+2025-05-30 09:46:53,380 - app.backend.message_handler - INFO - Tampering mode set to: True
+2025-05-30 09:46:53,381 - app - INFO - Tampering mode set to: True
+2025-05-30 09:47:12,661 - app - INFO - Message from vai to kai: [ENCRYPTED]
+2025-05-30 09:47:18,069 - app - INFO - Message from kai to vai: asdfsaf
+2025-05-30 09:47:18,070 - app - INFO - Sent original message confirmation to sender kai
+2025-05-30 09:47:18,070 - app.backend.message_handler - INFO - Logged message from kai to vai
